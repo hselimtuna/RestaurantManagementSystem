@@ -1,25 +1,15 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
-
 from PyQt5.QtCore import QCoreApplication
 from PyQt5.QtWidgets import QMainWindow
-
-
 
 class Ui_main_menu(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Window22222")
+        self.setWindowTitle("Window2")
         self.main_menu = QtWidgets.QDialog()
         self.setupUi(self.main_menu)
-
-
-
-
-
-
-
 
     def setupUi(self, main_menu):
         main_menu.setObjectName("main_menu")
