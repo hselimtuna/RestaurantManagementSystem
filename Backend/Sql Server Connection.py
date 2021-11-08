@@ -22,7 +22,6 @@ config oluşturman için kullanacağın kütüphane configparser
 
 conn =pyodbc.connect("Driver={SQL Server};"
                      "Server=DESKTOP-O0K2KTB;"      
-                     
                      "Database=RMS;"
                      "Trusted_Connection=yes;")
 
